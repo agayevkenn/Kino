@@ -541,3 +541,103 @@ body {
   }
 }
 
+
+/* Kenan */
+
+.program {
+  width: 90%;
+  margin: 0 auto;
+}
+.program h2 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.program-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 37px;
+}
+.program-card {
+  width: 100%;
+  border-radius: 9%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+.program-cards img {
+  width: 100%;
+  /* height: 50%; */
+}
+.program-cards p {
+  font-size: 25px;
+  font-family: Roboto;
+  margin: 36px 20px;
+}
+.program-cards h3 {
+  font-size: 30px;
+  font-family: Roboto;
+  margin: 11px 20px 0;
+}
+.seminar p {
+  margin: 2px 20px;
+}
+
+/* Kenan Media */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .program h2 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+  .program-card h3 {
+    font-size: 17px;
+  }
+  .program-card p {
+    font-size: 14px;
+  }
+  .program {
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 10px;
+  }
+  .program-cards {
+    width: 100%;
+  }
+  .program-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .program h2 {
+    font-size: 26px;
+    /* text-align: center; */
+    /* margin-right: 150px; */
+    margin-bottom: 60px;
+    /* min-width: 320px; */
+  }
+
+  .program-cards h3 {
+    font-size: 20px;
+    margin: 5px 10px 0;
+  }
+
+  .program-cards p {
+    font-size: 18px;
+    margin: 20px 10px;
+  }
+
+  .program-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-card {
+    width: 70%;
+    max-width: 347px;
+    min-width: 300px;
+  }
+}
+
