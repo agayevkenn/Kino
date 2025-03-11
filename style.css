@@ -294,7 +294,7 @@ body {
   }
   .above p {
     font-size: 14px;
-    width: 380px;
+/*     width: 380px; */
   }
   .cameraman1 img {
     width: 165px;
@@ -317,7 +317,7 @@ body {
   }
   .above p {
     font-size: 20px;
-    width: 310px;
+    width: 80%;
   }
   .cameraman2 img {
     width: 150px;
