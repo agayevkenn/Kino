@@ -9,4 +9,128 @@ body {
   margin: 0 auto;
 } 
 
+/* Kenan */
+.kino {
+  font-family: "Roboto";
+  margin-top: 150px;
+}
+.above {
+  display: flex;
+  margin-bottom: 50px;
+}
+.down {
+  display: flex;
+  gap: 80px;
+}
+.card {
+  width: 25%;
+}
+.cameraman1 img {
+  width: 300px;
+  height: 300px;
+}
+.kino h1 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+}
+.above p {
+  font-size: 24px;
+  width: 80%;
+}
+.text {
+  margin-right: 60px;
+}
+.card {
+  width: 150px;
+}
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+.card h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Kenan Media */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .cameraman2 img {
+    height: 117px;
+    width: 134px;
+  }
+  .kino h1 {
+    font-size: 32px;
+  }
+  .above p {
+    font-size: 14px;
+  }
+  .cameraman1 img {
+    width: 165px;
+    height: 165px;
+  }
+  .down p {
+    font-size: 11px;
+  }
+  .card h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 992px) {
+  .kino {
+    margin-top: 100px;
+  }
+  .kino h1 {
+    font-size: 40px;
+  }
+  .above p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .cameraman2 img {
+    width: 150px;
+  }
+  .cameraman1 img {
+    width: 170px;
+    height: 160px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 320px) {
+  .above {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .kino h1 {
+    font-size: 30px;
+  }
+  .above p {
+    font-size: 16px;
+  }
+  .text {
+    margin: 0;
+  }
+  .cameraman2 {
+    display: none;
+  }
+  .cameraman1 img {
+    width: 160px;
+  }
+  .card {
+    width: 30%;
+  }
+  .down p {
+    font-size: 16px;
+  }
+  .down {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .card h5 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
 
