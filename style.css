@@ -541,6 +541,102 @@ body {
   }
 }
 
+/* Mehemmed2 */
+.section6 {
+  background-color: #efefef;
+  margin-top: 150px;
+  padding: 60px 0;
+}
+.section6 h1 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.container6 {
+  width: 791px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+}
+.container6-bottom {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.container6text {
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-bottom: 40px;
+  width: 95%;
+}
+.section6name h2 {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section6image1 {
+  display: flex;
+}
+/* Mehemmed Media */
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+  .container6 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section6 h1 {
+    font-size: 48px;
+  }
+
+  .container6 {
+    width: 80%;
+  }
+
+  .container6text {
+    font-size: 26px;
+  }
+
+  .section6name h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .section6 h1 {
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .container6 {
+    width: 70%;
+  }
+  .container6text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .person-img {
+    width: 100px;
+  }
+  .section6name h2 {
+    font-size: 14px;
+  }
+  .section6name img {
+    width: 15px;
+  }
+  .container6-bottom {
+    gap: 15px;
+  }
+}
 
 /* Kenan 2*/
 
