@@ -81,131 +81,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Kenan */
-.kino {
-  font-family: "Roboto";
-  margin-top: 150px;
-}
-.above {
-  display: flex;
-  margin-bottom: 50px;
-}
-.down {
-  display: flex;
-  gap: 80px;
-}
-.card {
-  width: 25%;
-}
-.cameraman1 img {
-  width: 300px;
-  height: 300px;
-}
-.kino h1 {
-  font-family: "Roboto Slab";
-  font-size: 55px;
-}
-.above p {
-  font-size: 24px;
-  width: 80%;
-}
-.text {
-  margin-right: 60px;
-}
-.card {
-  width: 150px;
-}
-.card p {
-  font-size: 18px;
-  margin: 0;
-}
-.card h5 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-/* Kenan Media */
-@media (min-width: 992px) and (max-width: 1279px) {
-  .cameraman2 img {
-    height: 117px;
-    width: 134px;
-  }
-  .kino h1 {
-    font-size: 32px;
-  }
-  .above p {
-    font-size: 14px;
-  }
-  .cameraman1 img {
-    width: 165px;
-    height: 165px;
-  }
-  .down p {
-    font-size: 11px;
-  }
-  .card h5 {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 780px) and (max-width: 992px) {
-  .kino {
-    margin-top: 100px;
-  }
-  .kino h1 {
-    font-size: 40px;
-  }
-  .above p {
-    font-size: 20px;
-    width: 80%;
-  }
-  .cameraman2 img {
-    width: 150px;
-  }
-  .cameraman1 img {
-    width: 170px;
-    height: 160px;
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 780px) and (min-width: 320px) {
-  .above {
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .kino h1 {
-    font-size: 30px;
-  }
-  .above p {
-    font-size: 16px;
-  }
-  .text {
-    margin: 0;
-  }
-  .cameraman2 {
-    display: none;
-  }
-  .cameraman1 img {
-    width: 160px;
-  }
-  .card {
-    width: 30%;
-  }
-  .down p {
-    font-size: 16px;
-  }
-  .down {
-    flex-wrap: wrap;
-    gap: 50px;
-  }
-  .card h5 {
-    font-size: 18px;
-    margin: 0;
-    margin-bottom: 5px;
-    
-    
-    
 /* Fatime Media */
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .header img {
@@ -358,11 +233,141 @@ body {
   }
 }
 
+
+
+
+
+/* Kenan */
+.kino {
+  font-family: "Roboto";
+  margin-top: 150px;
+}
+.above {
+  display: flex;
+  margin-bottom: 50px;
+}
+.down {
+  display: flex;
+  gap: 80px;
+}
+.card {
+  width: 25%;
+}
+.cameraman1 img {
+  width: 300px;
+  height: 300px;
+}
+.kino h1 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+}
+.above p {
+  font-size: 24px;
+  width: 80%;
+}
+.text {
+  margin-right: 60px;
+}
+.card {
+  width: 150px;
+}
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+.card h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Kenan Media */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .cameraman2 img {
+    height: 117px;
+    width: 134px;
+  }
+  .kino h1 {
+    font-size: 32px;
+  }
+  .above p {
+    font-size: 14px;
+  }
+  .cameraman1 img {
+    width: 165px;
+    height: 165px;
+  }
+  .down p {
+    font-size: 11px;
+  }
+  .card h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 992px) {
+  .kino {
+    margin-top: 100px;
+  }
+  .kino h1 {
+    font-size: 40px;
+  }
+  .above p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .cameraman2 img {
+    width: 150px;
+  }
+  .cameraman1 img {
+    width: 170px;
+    height: 160px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 320px) {
+  .above {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .kino h1 {
+    font-size: 30px;
+  }
+  .above p {
+    font-size: 16px;
+  }
+  .text {
+    margin: 0;
+  }
+  .cameraman2 {
+    display: none;
+  }
+  .cameraman1 img {
+    width: 160px;
+  }
+  .card {
+    width: 30%;
+  }
+  .down p {
+    font-size: 16px;
+  }
+  .down {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .card h5 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+    
+    
+    
+
 /* Fatime2 */
 .about {
   margin: 150px 0;
 }
-h2 {
+.about h2 {
   margin-top: 0;
   font-size: 55px;
   margin-bottom: 90px;
@@ -372,7 +377,7 @@ h2 {
   display: flex;
   gap: 100px;
 }
-h4 {
+.abouts h4 {
   margin: 0;
   color: #1e4681;
   font-size: 25px;
@@ -404,11 +409,11 @@ h4 {
   .about {
     margin: 110px 0;
   }
-  h2 {
+  .about h2 {
     font-size: 45px;
     margin-bottom: 70px;
   }
-  h4 {
+  .abouts h4 {
     font-size: 20px;
   }
   .abouts p {
@@ -428,14 +433,14 @@ h4 {
   .about {
     margin: 90px 0;
   }
-  h2 {
+  .about h2 {
     font-size: 45px;
     margin-bottom: 50px;
   }
   .about {
     margin-top: 60px;
   }
-  h4 {
+  .abouts h4 {
     font-size: 25px;
   }
   .abouts p {
@@ -456,11 +461,11 @@ h4 {
   .about {
     margin: 60px 0;
   }
-  h2 {
+  .about h2 {
     font-size: 30px;
     margin-bottom: 30px;
   }
-  h4 {
+ .abouts h4 {
     font-size: 15px;
   }
   .abouts p {
