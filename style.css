@@ -60,7 +60,7 @@ body {
 }
 .middle-part {
   display: flex;
-  gap: 80px;
+  gap: 100px;
 }
 .last-part {
   width: 480px;
@@ -294,6 +294,7 @@ body {
   }
   .above p {
     font-size: 14px;
+    width: 380px;
   }
   .cameraman1 img {
     width: 165px;
@@ -316,7 +317,7 @@ body {
   }
   .above p {
     font-size: 20px;
-    width: 80%;
+    width: 310px;
   }
   .cameraman2 img {
     width: 150px;
