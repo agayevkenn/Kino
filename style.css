@@ -10,6 +10,736 @@ body {
 }
 
 /* Leyla */
+/* Fatime */
+.header img {
+  width: 98px;
+  height: 66px;
+  margin-top: 22px;
+}
+.first-part {
+  width: 60%;
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+}
+.item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.first-part img {
+  width: 22px;
+  height: 22px;
+}
+.middle-part-text h1 {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Roboto Slab";
+  margin-top: -10px;
+}
+.middle-part-text {
+  width: 90%;
+}
+.first-part p {
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.middle-part img {
+  width: 400px;
+  height: 406px;
+}
+.middle-part-text-2 p {
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-top: -50px;
+}
+.middle-part-text-2 {
+  width: 420px;
+}
+.middle-part {
+  display: flex;
+  gap: 100px;
+}
+.last-part {
+  width: 480px;
+  height: 200px;
+  background-color: #1e4681;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 20px 25px 5px;
+}
+.text-1 {
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+}
+.text-2 {
+  font-size: 20px;
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Fatime Media */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .header img {
+    width: 64.87px;
+    height: 38.23px;
+    margin-top: 22px;
+  }
+  .first-part {
+    width: 420px;
+    gap: 25px;
+  }
+  .first-part img {
+    width: 18px;
+    height: 18px;
+  }
+  .first-part p {
+    font-size: 18px;
+  }
+  .middle-part-text h1 {
+    font-size: 62px;
+  }
+  .middle-part-text {
+    width: 560px;
+  }
+  .middle-part img {
+    width: 256px;
+    height: 266px;
+  }
+  .middle-part-text-2 p {
+    font-size: 18px;
+  }
+  .middle-part-text-2 {
+    width: 380px;
+  }
+  .last-part {
+    width: 350px;
+    height: 145px;
+  }
+  .text-1 {
+    font-size: 18px;
+  }
+  .text-2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 992px) {
+  .header img {
+    width: 58px;
+    height: 35px;
+  }
+  .item p {
+    font-size: 18px;
+  }
+  .first-part {
+    gap: 25px;
+    width: 420px;
+    margin-top: 40px;
+  }
+  .image {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .middle-part-text h1 {
+    font-size: 63px;
+  }
+  .niddle-part-text {
+    width: 456px;
+  }
+  .middle-part {
+    flex-direction: column;
+  }
+  .middle-part-text-2 p {
+    font-size: 20px;
+  }
+  .middle-part-text-2 {
+    width: 420px;
+  }
+  .middle-part img {
+    width: 261px;
+    height: 255px;
+    margin-top: -70px;
+  }
+  .last-part {
+    width: 330px;
+    height: 135px;
+    padding: 10px 15px 5px;
+  }
+  .text-1 {
+    font-size: 16px;
+  }
+  .text-2 {
+    font-size: 13px;
+    padding-left: 180px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .header img {
+    width: 58px;
+    height: 35px;
+  }
+  .first-part {
+    width: 250px;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .first-part p {
+    font-size: 10px;
+  }
+  .first-part img {
+    width: 15px;
+    height: 15px;
+  }
+  .middle-part-text h1 {
+    font-size: 40px;
+  }
+  .middle-part-text-2 p {
+    font-size: 13px;
+  }
+  .middle-part-text-2 {
+    width: 270px;
+    margin-top: 50px;
+  }
+  .image {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .middle-part {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .middle-part img {
+    width: 141px;
+    height: 175px;
+    margin-top: -60px;
+  }
+  .last-part {
+    margin-top: -20px;
+    width: 225px;
+    height: 95px;
+    padding: 10px 10px 0px;
+  }
+  .text-1 {
+    font-size: 10px;
+  }
+  .text-2 {
+    font-size: 8px;
+    padding-left: 120px;
+  }
+}
+
+
+
+
+
+
+/* Kenan */
+.kino {
+  font-family: "Roboto";
+  margin-top: 150px;
+}
+.above {
+  display: flex;
+  margin-bottom: 50px;
+}
+.down {
+  display: flex;
+  gap: 80px;
+}
+.card {
+  width: 25%;
+}
+.cameraman1 img {
+  width: 300px;
+  height: 300px;
+}
+.kino h1 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+}
+.above p {
+  font-size: 24px;
+  width: 80%;
+}
+.text {
+  margin-right: 60px;
+}
+.card {
+  width: 150px;
+}
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+.card h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Kenan Media */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .cameraman2 img {
+    height: 117px;
+    width: 134px;
+  }
+  .kino h1 {
+    font-size: 32px;
+  }
+  .above p {
+    font-size: 14px;
+  }
+  .cameraman1 img {
+    width: 165px;
+    height: 165px;
+  }
+  .down p {
+    font-size: 11px;
+  }
+  .card h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 992px) {
+  .kino {
+    margin-top: 100px;
+  }
+  .kino h1 {
+    font-size: 40px;
+  }
+  .above p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .cameraman2 img {
+    width: 150px;
+  }
+  .cameraman1 img {
+    width: 170px;
+    height: 160px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 320px) {
+  .above {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .kino h1 {
+    font-size: 30px;
+  }
+  .above p {
+    font-size: 16px;
+  }
+  .text {
+    margin: 0;
+  }
+  .cameraman2 {
+    display: none;
+  }
+  .cameraman1 img {
+    width: 160px;
+  }
+  .card {
+    width: 30%;
+  }
+  .down p {
+    font-size: 16px;
+  }
+  .down {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .card h5 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+    
+    
+    
+
+/* Fatime2 */
+.about {
+  margin: 150px 0;
+}
+.about h2 {
+  margin-top: 0;
+  font-size: 55px;
+  margin-bottom: 90px;
+  font-family: "Roboto Slab";
+}
+.abouts {
+  display: flex;
+  gap: 100px;
+}
+.abouts h4 {
+  margin: 0;
+  color: #1e4681;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+.abouts p {
+  font-size: 18px;
+  font-family: "Roboto";
+  margin: 0;
+}
+.about-first,
+.about-second,
+.about-last {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-first {
+  width: 220px;
+}
+.about-second {
+  width: 280px;
+}
+.about-last {
+  width: 300px;
+}
+/* Fatime Media */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .about {
+    margin: 110px 0;
+  }
+  .about h2 {
+    font-size: 45px;
+    margin-bottom: 70px;
+  }
+  .abouts h4 {
+    font-size: 20px;
+  }
+  .abouts p {
+    font-size: 15px;
+  }
+  .about-first {
+    width: 200px;
+  }
+  .about-second {
+    width: 230px;
+  }
+  .about-last {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 992px) {
+  .about {
+    margin: 90px 0;
+  }
+  .about h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+  .about {
+    margin-top: 60px;
+  }
+  .abouts h4 {
+    font-size: 25px;
+  }
+  .abouts p {
+    font-size: 20px;
+  }
+  .abouts {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about-first {
+    width: 350px;
+  }
+  .about-second {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .about {
+    margin: 60px 0;
+  }
+  .about h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+ .abouts h4 {
+    font-size: 15px;
+  }
+  .abouts p {
+    font-size: 13px;
+  }
+  .abouts {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about-second {
+    width: 220px;
+  }
+  .about-last {
+    width: 250px;
+  }
+}
+
+
+
+/* Mehemmed */
+.section4 {
+  margin-bottom: 150px;
+}
+
+.section4 h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Roboto Slab";
+  width: 70%;
+}
+
+.list-section4 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 90%;
+}
+
+/* Mehemmed Media */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .section4 h1 {
+    font-size: 35px;
+  }
+  .list-section4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 500px) {
+  .section4 {
+    margin-bottom: 90px;
+  }
+  .section4 h1 {
+    font-size: 30px;
+  }
+  .list-section4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .section4 {
+    margin-bottom: 60px;
+  }
+  .section4 h1 {
+    font-size: 30px;
+  }
+  .list-section4 {
+    font-size: 12px;
+  }
+}
+
+
+/* Kenan 2*/
+
+.program {
+  width: 90%;
+  margin: 0 auto;
+}
+.program h2 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.program-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 37px;
+}
+.program-card {
+  width: 100%;
+  border-radius: 9%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+.program-cards img {
+  width: 100%;
+  /* height: 50%; */
+}
+.program-cards p {
+  font-size: 25px;
+  font-family: Roboto;
+  margin: 36px 20px;
+}
+.program-cards h3 {
+  font-size: 30px;
+  font-family: Roboto;
+  margin: 11px 20px 0;
+}
+.seminar p {
+  margin: 2px 20px;
+}
+
+/* Kenan Media */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .program h2 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+  .program-card h3 {
+    font-size: 17px;
+  }
+  .program-card p {
+    font-size: 14px;
+  }
+  .program {
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 10px;
+  }
+  .program-cards {
+    width: 100%;
+  }
+  .program-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .program h2 {
+    font-size: 26px;
+    /* text-align: center; */
+    /* margin-right: 150px; */
+    margin-bottom: 60px;
+    /* min-width: 320px; */
+  }
+
+  .program-cards h3 {
+    font-size: 20px;
+    margin: 5px 10px 0;
+  }
+
+  .program-cards p {
+    font-size: 18px;
+    margin: 20px 10px;
+  }
+
+  .program-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-card {
+    width: 70%;
+    max-width: 347px;
+    min-width: 300px;
+  }
+}
+
+
+/* Mehemmed2 */
+.section6 {
+  background-color: #efefef;
+  margin-top: 150px;
+  padding: 60px 0;
+}
+.section6 h1 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.container6 {
+  width: 791px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+}
+.container6-bottom {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.container6text {
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-bottom: 40px;
+  width: 95%;
+}
+.section6name h2 {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section6image1 {
+  display: flex;
+}
+/* Mehemmed Media */
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+  .container6 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section6 h1 {
+    font-size: 48px;
+  }
+
+  .container6 {
+    width: 80%;
+  }
+
+  .container6text {
+    font-size: 26px;
+  }
+
+  .section6name h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .section6 h1 {
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .container6 {
+    width: 70%;
+  }
+  .container6text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .person-img {
+    width: 100px;
+  }
+  .section6name h2 {
+    font-size: 14px;
+  }
+  .section6name img {
+    width: 15px;
+  }
+  .container6-bottom {
+    gap: 15px;
+  }
+}
 
 /* Section7 */
 .section7 {
