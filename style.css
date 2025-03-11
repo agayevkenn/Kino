@@ -9,7 +9,6 @@ body {
   margin: 0 auto;
 }
 
-/* Leyla */
 /* Fatime */
 .header img {
   width: 98px;
@@ -38,7 +37,8 @@ body {
   margin-top: -10px;
 }
 .middle-part-text {
-  width: 90%;
+  width: 95%;
+  max-width: 619px;
 }
 .first-part p {
   font-size: 20px;
